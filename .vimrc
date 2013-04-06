@@ -1,5 +1,6 @@
 """""""""""""""""general"""""""""""""""""""""""""""""""""""""""""""""
 syntax on
+
 set showmatch
 set matchtime=2
 set nowrap
