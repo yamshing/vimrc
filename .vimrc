@@ -31,10 +31,10 @@ vmap <S-j><S-j> <Esc>
 imap <S-j><S-j> <Esc>
 map <S-j><S-j> <Esc>
 
-imap <C-k> <Up>
-imap <C-j> <Down>
-imap <C-l> <Right>
-imap <C-h> <Left>
+"imap <C-k> <Up>
+"imap <C-j> <Down>
+"imap <C-l> <Right>
+"imap <C-h> <Left>
 
 map <S-k> <C-w><Up>
 map <S-j> <C-w><Down>
@@ -138,8 +138,11 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-ragtag'
 NeoBundle 'h1mesuke/unite-outline'
 NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'tyru/skk.vim'
 NeoBundle 'vim-scripts/TwitVim'
 NeoBundle 'vim-scripts/ZoomWin'
+
+
 filetype indent on
 filetype plugin on
 
