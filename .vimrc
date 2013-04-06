@@ -73,18 +73,20 @@ vnoremap > >gv
 
 """"""""""""""""color""""""""""""""""
 hi cursorLine cterm=NONE gui=NONE
-hi tabLine cterm=NONE gui=NONE
-hi Folded    ctermbg=DarkGreen ctermfg=yellow
-" ポップアップメニューのカラーを設定
+hi Folded  ctermbg=green  ctermfg=yellow
 hi Pmenu ctermbg=yellow ctermfg=black
 hi PmenuSel ctermbg=green ctermfg=yellow
-hi Comment ctermfg=blue
-hi Visual ctermfg=black
+hi Comment ctermfg=cyan
+hi Visual ctermfg=brown
 hi DiffDelete ctermfg=yellow
-hi Directory ctermfg=blue
-hi LineNr ctermbg=blue ctermfg=black
-hi Statement ctermfg=yellow
-hi Type ctermfg=darkcyan
+hi Directory ctermfg=cyan
+hi LineNr  ctermfg=darkgray
+hi Statement ctermfg=darkcyan
+hi Type ctermfg=blue
+hi Special ctermfg=brown
+hi Statusline ctermbg=black ctermfg=yellow
+
+
 """"""""""""""""""""tohtml option""""""""""""""""""""
 let html_use_css=1
 let html_number_lines=0
