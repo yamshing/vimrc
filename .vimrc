@@ -40,7 +40,12 @@ map <S-k> <C-w><Up>
 map <S-j> <C-w><Down>
 map <S-l> <C-w><Right>
 map <S-h> <C-w><Left>
+
 map <S-b> :tabnext<CR>
+map <S-b> :tabnext<CR>
+map <S-h> :tabprevious<CR>
+map <S-l> :tabnext<CR>
+
 map <S-o><S-o> :tabnew .<CR> :lcd %:p:h<CR> :pwd<CR>
 map <S-q><S-q> :q<CR>
 map <C-j> <C-w>x
