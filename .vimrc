@@ -7,8 +7,8 @@ set nowrap
 
 filetype indent on
 filetype plugin on
-set encoding=utf-8
-"set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
+"set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
 set tabstop=4 shiftwidth=4 softtabstop=4
 set ruler
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
@@ -88,7 +88,7 @@ hi Statement ctermfg=darkcyan
 hi Type ctermfg=blue
 hi Special ctermfg=brown
 hi Statusline ctermbg=black ctermfg=yellow
-
+hi Search ctermbg=cyan
 
 """"""""""""""""""""tohtml option""""""""""""""""""""
 let html_use_css=1
