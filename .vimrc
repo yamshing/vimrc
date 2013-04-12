@@ -7,8 +7,8 @@ set nowrap
 
 filetype indent on
 filetype plugin on
-"set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
+set encoding=utf-8
+"set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
 set tabstop=4 shiftwidth=4 softtabstop=4
 set ruler
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
@@ -26,6 +26,8 @@ set autochdir
 let g:session_autosave = 'no'
 set complete-=i
 set complete-=d
+set incsearch	"highlignt found word when typing
+set hlsearch
 
 """""""""""""""mapping
 vmap <S-j><S-j> <Esc>
@@ -143,6 +145,7 @@ NeoBundle 'tyru/skk.vim'
 NeoBundle 'vim-scripts/TwitVim'
 NeoBundle 'vim-scripts/ZoomWin'
 
+NeoBundle 'SpeedGrep'
 
 filetype indent on
 filetype plugin on
