@@ -16,6 +16,7 @@ else
 	set encoding=utf-8
 endif
 """""""""""""""""""""""""""""""
+
 set tabstop=4 shiftwidth=4 softtabstop=4
 set ruler
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
@@ -88,7 +89,9 @@ hi Pmenu ctermbg=yellow ctermfg=black
 hi PmenuSel ctermbg=green ctermfg=yellow
 hi Comment ctermfg=cyan
 hi Visual ctermfg=brown
-hi DiffDelete ctermfg=yellow
+hi DiffChange ctermbg=red
+hi DiffText term=reverse ctermbg=yellow ctermfg=black
+
 hi Directory ctermfg=cyan
 hi LineNr  ctermfg=darkgray
 hi Statement ctermfg=darkcyan
