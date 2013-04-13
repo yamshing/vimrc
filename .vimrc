@@ -7,8 +7,15 @@ set nowrap
 
 filetype indent on
 filetype plugin on
-"set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
+
+""""""""encoding setting by system
+let os = substitute(system('uname'),"\n","","")
+if os == "FreeBSD"
+	set fileencodings=iso-2022-jp,euc-jp,cp932,ucs-bom,utf-8,default,latin1
+else
+	set encoding=utf-8
+endif
+"""""""""""""""""""""""""""""""
 set tabstop=4 shiftwidth=4 softtabstop=4
 set ruler
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
