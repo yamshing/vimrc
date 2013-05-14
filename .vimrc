@@ -84,11 +84,12 @@ vnoremap > >gv
 
 """"""""""""""""color""""""""""""""""
 hi cursorLine cterm=NONE gui=NONE
-hi Folded  ctermbg=green  ctermfg=yellow
+hi Folded  ctermbg=darkgreen  ctermfg=yellow
 hi Pmenu ctermbg=yellow ctermfg=black
 hi PmenuSel ctermbg=green ctermfg=yellow
 hi Comment ctermfg=cyan
-hi Visual ctermfg=brown
+hi Visual ctermbg=yellow
+hi Visual ctermfg=black
 hi DiffChange ctermbg=red
 hi DiffText term=reverse ctermbg=yellow ctermfg=black
 
