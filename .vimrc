@@ -17,10 +17,10 @@ else
 endif
 """""""""""""""""""""""""""""""
 
-set tabstop=4 shiftwidth=4 softtabstop=4
+set tabstop=2 shiftwidth=2 softtabstop=2
 set ruler
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
-
+au BufNewFile,BufRead *.spec set filetype=ruby
 set background=dark
 colorscheme default 
 set number
@@ -110,7 +110,7 @@ let html_no_pre=0
 """"""""""""""""""""""""php syntax """""""""""""""""""""""""
 let php_folding = 1
 autocmd FileType python set omnifunc=pythoncomplete#Complete
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
@@ -148,7 +148,7 @@ NeoBundle 'vim-scripts/AutoComplPop'
 NeoBundle 'rosenfeld/rgrep.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-rails'
+"NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-ragtag'
 NeoBundle 'h1mesuke/unite-outline'
 NeoBundle 'Lokaltog/vim-easymotion'
