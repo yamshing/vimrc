@@ -131,7 +131,7 @@ let skk_use_face = 1
 filetype off 
 
 if has('vim_starting')
-   set runtimepath+=~/.vim/neobundle.vim.git
+   set runtimepath+=~/.vim/bundle/neobundle.vim
    call neobundle#rc(expand('~/.vim/.bundle'))
 endif
  
@@ -139,12 +139,13 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'xolox/vim-session'
+NeoBundle 'xolox/vim-misc'
 NeoBundle 'mattn/zencoding-vim'
 NeoBundle 'tomtom/tlib_vim.git'
 NeoBundle 'MarcWeber/vim-addon-mw-utils.git'
-NeoBundle 'honza/snipmate-snippets.git'
+NeoBundle 'honza/vim-snippets'
 NeoBundle 'garbas/vim-snipmate'
-NeoBundle 'vim-scripts/AutoComplPop'
+"NeoBundle 'vim-scripts/AutoComplPop'
 NeoBundle 'rosenfeld/rgrep.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'tpope/vim-surround'
@@ -156,7 +157,7 @@ NeoBundle 'tyru/skk.vim'
 NeoBundle 'vim-scripts/TwitVim'
 NeoBundle 'vim-scripts/ZoomWin'
 
-NeoBundle 'SpeedGrep'
+"NeoBundle 'SpeedGrep'
 
 filetype indent on
 filetype plugin on
